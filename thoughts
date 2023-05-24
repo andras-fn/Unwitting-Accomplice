@@ -1,0 +1,11 @@
+deploy to vercel
+get the call to inngest api endpoints working from where they are
+get the config page working with maybe a minimise button on each of the doc types or some kind of menu to select the one you want to look at
+split the document list page into the different document types
+create the columns based on the fields for the document type
+figure out how to deal with lines and display them nicely []
+maybe show the doc list and then have another table underneath that the lines show up in when you click on a doc
+determine the max number of tables we can have in supabase, create the tables based on the doc types - what happens when a field is changed in the doc type config?
+persist the initial message with the text layer in to reduce the number of tokens used
+
+local inngest cmd: npx inngest-cli@latest dev
